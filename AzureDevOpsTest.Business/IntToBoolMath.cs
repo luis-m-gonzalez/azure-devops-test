@@ -6,11 +6,11 @@ namespace AzureDevOpsTest.Business
     {
         public bool Add(int a, int b)
         {
-            return a + b != 0;
+            return a + b == 0;
         }
         public bool Substract(int a, int b)
         {
-            return a - b != 0;
+            return a - b == 0;
         }
     }
 }
